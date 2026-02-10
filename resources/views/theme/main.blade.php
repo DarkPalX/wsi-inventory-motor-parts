@@ -6,14 +6,7 @@
 	<meta http-equiv="x-ua-compatible" content="IE=edge">
 	<meta name="author" content="SemiColonWeb">
 	<meta name="description" content="Get Canvas to build powerful websites easily with the Highly Customizable &amp; Best Selling Bootstrap Template, today.">
-
-	<!-- Font Imports -->
-<!-- 	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-	<!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet"> -->
-
 	
-
 	<!-- Core Style -->
 	<link rel="stylesheet" href="{{ asset('theme/style.css') }}">
 
@@ -31,6 +24,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="{{ asset('theme/css/colors.php?color=fe6400') }}">
 	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
 	<!-- DataTable CSS -->
     <link rel="stylesheet" href="{{ asset('theme/include/DataTables/datatables.css') }}">
 
