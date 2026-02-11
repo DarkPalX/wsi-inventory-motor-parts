@@ -145,38 +145,6 @@
     </div>
 
 
-    {{-- SHOW BOOK --}}
-    
-    <div class="modal fade show-item mt-5" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-md" role="document">
-            <div class="modal-content bg-transparent border-0 shadow-none" style="width:80%">
-                <div class="flip-card text-center shadow" style="height: 584px;">
-                    <div class="flip-card-front dark h-100" id="item_image" >
-                        <div class="flip-card-inner h-100 d-flex flex-column justify-content-between">
-                            <div class="card bg-transparent border-0 text-center p-5">
-                                <h1 class="card-title item-title mt-3">Title</h1>
-                                <div class="card-body text-contrast-900">
-                                    <p class="card-text fw-normal item-subtitle">Subtitle</p>
-                                </div>
-                            </div>
-                            <div class="card-footer bg-transparent text-center">
-                                <p><span class="item-authors">Authors</span></p><br>
-                                <p><span class="item-year">August 28, 2024</span></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flip-card-back h-100" style="background-image: url('{{ asset('images/fis2.png') }}'); background-size: 350px; background-repeat: no-repeat; background-position: center;">
-                        <div class="flip-card-inner h-100 d-flex flex-column align-items-center justify-content-center">
-                            <p class="mb-0"><h4 class="item-isbn text-light">1234567890</h4></p>
-                            <a class="btn btn-outline-light mt-2 item-details-button">View Details</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
     {{-- MODALS --}}
     @include('theme.layouts.modals')
     

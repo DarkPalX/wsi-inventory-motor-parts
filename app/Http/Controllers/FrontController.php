@@ -64,6 +64,10 @@ class FrontController extends Controller
     
     public function signup()
     {
+        if(Auth::user()){
+            return redirect()->route('home');
+        }
+
         $page = new Page();
         $page->name = 'Sign Up';
         
