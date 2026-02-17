@@ -32,9 +32,9 @@ class DatabaseSeeder extends Seeder
             SettingSeeder::class,
             RoleSeeder::class,
             ItemSeeder::class,
-            // PurchaseOrderSeeder::class,
-            // ReceivingTransactionSeeder::class,
-            // IssuanceTransactionSeeder::class,
+            PurchaseOrderSeeder::class,
+            ReceivingTransactionSeeder::class,
+            IssuanceTransactionSeeder::class,
 
             // MenuSeeder::class,
             // MenusHasPagesSeeder::class,
